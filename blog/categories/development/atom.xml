@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Github Blog]]></title>
-  <link href="http://shocm.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: development | My Github Blog]]></title>
+  <link href="http://shocm.github.io/blog/categories/development/atom.xml" rel="self"/>
   <link href="http://shocm.github.io/"/>
   <updated>2013-05-13T08:39:38-07:00</updated>
   <id>http://shocm.github.io/</id>
