@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: security | My Github Blog]]></title>
+  <link href="http://shocm.github.io/blog/categories/security/atom.xml" rel="self"/>
+  <link href="http://shocm.github.io/"/>
+  <updated>2013-05-27T21:46:46-07:00</updated>
+  <id>http://shocm.github.io/</id>
+  <author>
+    <name><![CDATA[shocm]]></name>
+    <email><![CDATA[eric@esolves.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Encryption: It's For More Than Just Password]]></title>
+    <link href="http://shocm.github.io/blog/2013/05/27/encryption-its-for-more-than-just-password/"/>
+    <updated>2013-05-27T21:39:00-07:00</updated>
+    <id>http://shocm.github.io/blog/2013/05/27/encryption-its-for-more-than-just-password</id>
+    <content type="html"><![CDATA[<p>This year at <a href="http://tek.phparch.com/">tek13</a>, <a href="https://twitter.com/johncongdon">John Congdon</a> gave this talk about PHP and Encryption. I didn&rsquo;t get a chance to attend the conference this year but I did get to see a preview of the talk a couple of times as <a href="https://twitter.com/johncongdon">John</a> practiced his presentation on the <a href="http://www.sdphp.org/">SDPHP</a> group. It&rsquo;s very informative and has me really looking forward to a couple new features that should be released in the next version of <a href="http://www.php.net/manual/en/migration55.new-features.php">PHP version 5.5.</a></p>
+
+<p style="text-align: center;">
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="http://www.slideshare.net/slideshow/embed_code/21222515" height="356" width="427" allowfullscreen="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<div style="margin-bottom: 5px;"><strong> <a title="Encryption: It's For More Than Just Password - tek13" href="http://www.slideshare.net/johncongdon/encryption-its-for-more-than-just-password-tek13" target="_blank">Encryption: It's For More Than Just Password - tek13</a> </strong> from <strong><a href="http://www.slideshare.net/johncongdon" target="_blank">John Congdon</a></strong></div>
+</p>
+
+]]></content>
+  </entry>
+  
+</feed>
