@@ -4,7 +4,7 @@
   <title><![CDATA[Category: php | My Github Blog]]></title>
   <link href="http://shocm.github.io/blog/categories/php/atom.xml" rel="self"/>
   <link href="http://shocm.github.io/"/>
-  <updated>2013-05-28T12:23:31-07:00</updated>
+  <updated>2013-05-30T13:40:13-07:00</updated>
   <id>http://shocm.github.io/</id>
   <author>
     <name><![CDATA[shocm]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Caching: A Brief Overview]]></title>
+    <link href="http://shocm.github.io/blog/2013/05/30/caching-a-brief-overview/"/>
+    <updated>2013-05-30T13:36:00-07:00</updated>
+    <id>http://shocm.github.io/blog/2013/05/30/caching-a-brief-overview</id>
+    <content type="html"><![CDATA[<p>Another <a href="http://www.sdphp.org/2013/05/meetup-13-caching-a-brief-overview/">SDPHP MeetUp</a> last night and another good talk. Aaron Scherer (<a href="https://twitter.com/aequasi">@aequasi</a>) did a great job discussing different types of Cache solutions such as OpCode Caches (APC, Zend Optimizer, eAccelerator, XCache, and HipHop) and Data Caches (APC, Memcached, and Redis). Worth a click through</p>
+
+<p style="text-align: center;">
+<iframe style="border: 1px solid #CCC; border-width: 1px 1px 0; margin-bottom: 5px;" src="http://www.slideshare.net/slideshow/embed_code/22206852" height="356" width="427" allowfullscreen="" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<div style="margin-bottom: 5px;"><strong> <a title="Caching" href="http://www.slideshare.net/aequasi/caching-22206852" target="_blank">Caching</a> </strong> from <strong><a href="http://www.slideshare.net/aequasi" target="_blank">Aaron Scherer</a></strong></div>
+</p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Encryption: It's For More Than Just Password]]></title>
