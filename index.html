@@ -7,7 +7,7 @@
 	<meta name="author" content="shocm">
 
 	
-	<meta name="description" content="May 30th, 2013 caching, php, sdphp Comments Caching: A Brief Overview Another SDPHP MeetUp last night and another good talk. Aaron Scherer (@aequasi &hellip;">
+	<meta name="description" content="May 31st, 2013 backup, script, vim Comments Vim Safely As I mentioned a couple post ago, I started a new job in which I am doing more heavy &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -110,6 +110,62 @@
 			<div class="mid-col-container">
 				<div id="content" class="inner">
 <div itemscope itemtype="http://schema.org/Blog">
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="meta">
+		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-31T20:01:00-07:00" data-updated="true" itemprop="datePublished">May 31<span>st</span>, 2013</time></div>
+		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/backup/'>backup</a>, <a class='category' href='/blog/categories/script/'>script</a>, <a class='category' href='/blog/categories/vim/'>vim</a>
+
+
+</div>
+		
+			<span class="comments"><a href="/blog/2013/05/31/vim-safely/#disqus_thread">Comments</a></span>
+		
+	</div>
+	<h1 class="title" itemprop="name"><a href="/blog/2013/05/31/vim-safely/" itemprop="url">Vim Safely</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<p>
+As I mentioned a couple post ago, I started a <a href="/blog/2013/05/13/2-weeks-as-a-programmer/">new job</a> in which I am doing more heavy development, and I am loving it. Now I am a very paranoid programmer and I am this way because I&#8217;ve destroyed hours of work with some poorly coded lines. As a result I typically backup the files I am working on before I edit them and this has saved me a few times. Couple this with the fact I am working in unfamiliar code of the new job and I find myself doing a quick &#8216;cp&#8217; before every &#8216;vi&#8217;.
+</p>
+
+
+<p>
+Something else about me, I am very lazy and I like to automate as much of my life as possible. With this, I created a nice little BASH function to handle this task for me. 
+</p>
+
+
+<div><script src='https://gist.github.com/5688479.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+
+
+
+
+<p>
+It&#8217;s pretty basic and I add this to my .bash_profile. Now when I type &#8216;evim filename&#8217;, this little function will make a copy of the file in a Backup folder I defined. It will also add a time
+stamp as part of the backed up filename.</p>
+
+
+		
+		
+	</div>
+
+</article>
 
 
     <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">

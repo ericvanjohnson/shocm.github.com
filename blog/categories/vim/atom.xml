@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: vim | My Github Blog]]></title>
+  <link href="http://shocm.github.io/blog/categories/vim/atom.xml" rel="self"/>
+  <link href="http://shocm.github.io/"/>
+  <updated>2013-05-31T21:00:15-07:00</updated>
+  <id>http://shocm.github.io/</id>
+  <author>
+    <name><![CDATA[shocm]]></name>
+    <email><![CDATA[eric@esolves.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Vim Safely]]></title>
+    <link href="http://shocm.github.io/blog/2013/05/31/vim-safely/"/>
+    <updated>2013-05-31T20:01:00-07:00</updated>
+    <id>http://shocm.github.io/blog/2013/05/31/vim-safely</id>
+    <content type="html"><![CDATA[<p>
+As I mentioned a couple post ago, I started a <a href="http://shocm.github.io/blog/2013/05/13/2-weeks-as-a-programmer/">new job</a> in which I am doing more heavy development, and I am loving it. Now I am a very paranoid programmer and I am this way because I've destroyed hours of work with some poorly coded lines. As a result I typically backup the files I am working on before I edit them and this has saved me a few times. Couple this with the fact I am working in unfamiliar code of the new job and I find myself doing a quick 'cp' before every 'vi'.
+</p>
+
+
+<p>
+Something else about me, I am very lazy and I like to automate as much of my life as possible. With this, I created a nice little BASH function to handle this task for me. 
+</p>
+
+
+<p><div><script src='https://gist.github.com/5688479.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+
+<p>
+It's pretty basic and I add this to my .bash_profile. Now when I type 'evim filename', this little function will make a copy of the file in a Backup folder I defined. It will also add a time
+stamp as part of the backed up filename.</p>
+
+]]></content>
+  </entry>
+  
+</feed>
